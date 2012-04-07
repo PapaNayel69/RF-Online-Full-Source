@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LoginServer - Win32 x2o_Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1.ZJG\LOCALS~1\Temp\RSP2D9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I ".\\" /I "..\Protocol" /I "..\DataBase" /I "..\Network" /I "..\Common" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "__SERVICE" /FR"..\..\RF_Build\Release\LoginServerSR/" /Fp"..\..\RF_Build\Release\LoginServerSR/LoginServer.pch" /YX /Fo"..\..\RF_Build\Release\LoginServerSR/" /Fd"..\..\RF_Build\Release\LoginServerSR/" /FD /GZ /c 
+"G:\RF\rfonline\odin\Server Code\rf_server_new\RF_Server\LoginServer\mainthread.cpp"
+"G:\RF\rfonline\odin\Server Code\rf_server_new\RF_Server\LoginServer\MainThread_db.cpp"
+"G:\RF\rfonline\odin\Server Code\rf_server_new\RF_Server\LoginServer\networkex.cpp"
+"G:\RF\rfonline\odin\Server Code\rf_server_new\RF_Server\network\netprocess.cpp"
+"G:\RF\rfonline\odin\Server Code\rf_server_new\RF_Server\network\netsocket.cpp"
+"G:\RF\rfonline\odin\Server Code\rf_server_new\RF_Server\network\netutil.cpp"
+"G:\RF\rfonline\odin\Server Code\rf_server_new\RF_Server\network\networking.cpp"
+"G:\RF\rfonline\odin\Server Code\rf_server_new\RF_Server\database\rfnewdatabase.cpp"
+"G:\RF\rfonline\odin\Server Code\rf_server_new\RF_Server\database\rfwebdatabase.cpp"
+"G:\RF\rfonline\odin\Server Code\rf_server_new\RF_Server\common\myclassutil.cpp"
+"G:\RF\rfonline\odin\Server Code\rf_server_new\RF_Server\common\myutil.cpp"
+"G:\RF\rfonline\odin\Server Code\rf_server_new\RF_Server\common\WinMain.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1.ZJG\LOCALS~1\Temp\RSP2D9.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1.ZJG\LOCALS~1\Temp\RSP2DA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Ws2_32.lib winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"..\..\RF_Build\Release\LoginServerSR/LoginServerSR.pdb" /debug /machine:I386 /out:"..\..\RF_Bin\LoginServerSR.exe" /pdbtype:sept 
+"\RF\rfonline\odin\Server Code\rf_server_new\RF_Build\Release\LoginServerSR\mainthread.obj"
+"\RF\rfonline\odin\Server Code\rf_server_new\RF_Build\Release\LoginServerSR\MainThread_db.obj"
+"\RF\rfonline\odin\Server Code\rf_server_new\RF_Build\Release\LoginServerSR\networkex.obj"
+"\RF\rfonline\odin\Server Code\rf_server_new\RF_Build\Release\LoginServerSR\netprocess.obj"
+"\RF\rfonline\odin\Server Code\rf_server_new\RF_Build\Release\LoginServerSR\netsocket.obj"
+"\RF\rfonline\odin\Server Code\rf_server_new\RF_Build\Release\LoginServerSR\netutil.obj"
+"\RF\rfonline\odin\Server Code\rf_server_new\RF_Build\Release\LoginServerSR\networking.obj"
+"\RF\rfonline\odin\Server Code\rf_server_new\RF_Build\Release\LoginServerSR\rfnewdatabase.obj"
+"\RF\rfonline\odin\Server Code\rf_server_new\RF_Build\Release\LoginServerSR\rfwebdatabase.obj"
+"\RF\rfonline\odin\Server Code\rf_server_new\RF_Build\Release\LoginServerSR\myclassutil.obj"
+"\RF\rfonline\odin\Server Code\rf_server_new\RF_Build\Release\LoginServerSR\myutil.obj"
+"\RF\rfonline\odin\Server Code\rf_server_new\RF_Build\Release\LoginServerSR\WinMain.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1.ZJG\LOCALS~1\Temp\RSP2DA.tmp"
+<h3>Output Window</h3>
+Compiling...
+mainthread.cpp
+MainThread_db.cpp
+networkex.cpp
+netprocess.cpp
+netsocket.cpp
+netutil.cpp
+networking.cpp
+rfnewdatabase.cpp
+rfwebdatabase.cpp
+myclassutil.cpp
+myutil.cpp
+WinMain.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+LoginServerSR.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
